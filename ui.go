@@ -158,6 +158,10 @@ func (b *Barnard) OnUiInitialize(ui *uiterm.Ui) {
 	b.Ui.AddKeyListener(b.OnScrollOutputBottom, uiterm.KeyEnd)
 
 	b.start()
+	b.UiStatus.Fg = uiterm.ColorWhite | uiterm.AttrBold
+        b.UiStatus.Bg = uiterm.ColorRed
+        b.UiStatus.Text = "  Tx  "
+        b.Stream.StartSource()
 }
 
 func (b *Barnard) OnUiResize(ui *uiterm.Ui, width, height int) {
