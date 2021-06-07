@@ -1,3 +1,6 @@
+# Modified by Luupw3D 
+- Set voice mode as default.
+
 # barnard
 
 barnard is a terminal-based client for the [Mumble](https://mumble.info) voice
