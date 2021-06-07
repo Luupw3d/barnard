@@ -1,4 +1,4 @@
-# Modified by Luupw3D 
+# Modified by Luupw3d 
 - Set voice mode as default.
 
 # barnard
